@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,d as r}from"./app.2f20f950.js";const i="/movie-docs/main.svg",h=JSON.parse('{"title":"Movie Service","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),s={name:"index.md"},o=r("",4),n=[o];function c(d,_,p,l,v,m){return t(),a("div",null,n)}const g=e(s,[["render",c]]);export{h as __pageData,g as default};

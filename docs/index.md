@@ -5,6 +5,6 @@ it is depandant several external services like [IVA](https://developer.iva-api.c
 
 This service is using Postgres DB as database, Redis for caching, Zipkin for tracing and VOX for movie data, IVA for poster image and trailler etc.
 
-![qq](./main.svg)
+![qq](/main.svg)
 
 <!-- <a href="./guide/getting-started" target="_blank" rel="noreferrer">Getting Started</a> -->

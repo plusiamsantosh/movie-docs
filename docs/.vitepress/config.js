@@ -2,7 +2,7 @@ export default {
   title: 'Movie Service',
   description: 'technical documentation for movie service',
   base: '/movie-docs/',
-  outDir:'../public',
+  outDir: '../public',
   themeConfig: {
     sidebar: [
       {
@@ -17,8 +17,17 @@ export default {
         text: 'Database',
         items: [
           { text: 'Database Setup', link: '/db/database.md' },
-          { text: 'Database Migration', link: '/db/db-migration.md' },
-          { text: 'Add New Table', link: '/db/add-new-table.md' },
+          { text: 'Database Structure', link: '/db/db-structure.md' },
+          // { text: 'Add New Table', link: '/db/add-new-table.md' },
+        ]
+      },
+      {
+        text: 'Workflows',
+        items: [
+          { text: 'API', link: '/workflows/api.md' },
+          { text: 'Caching', link: '/workflows/caching.md' },
+          { text: 'Payment', link: '/workflows/payment.md' },
+
         ]
       },
       {
@@ -27,7 +36,7 @@ export default {
           { text: 'Add API', link: '/code/add-api.md' },
           { text: 'New Service', link: '/code/new-service.md' },
           { text: 'New Repository', link: '/code/new-repository.md' },
-          
+
         ]
       }
     ]

@@ -1,7 +1,8 @@
 export default {
   title: 'Movie Service',
   description: 'technical documentation for movie service',
-  base: '/base/',
+  base: '/movie-docs/',
+  outDir:'../public',
   themeConfig: {
     sidebar: [
       {

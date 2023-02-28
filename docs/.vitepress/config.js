@@ -11,6 +11,7 @@ export default {
           { text: 'Getting Started', link: '/guide/getting-started' },
           { text: 'Directory Structure', link: '/guide/directory-structure' },
           { text: 'Override Config', link: '/guide/override-config' },
+          { text: 'Important Links', link: '/guide/links' },
         ]
       },
       {
@@ -27,15 +28,6 @@ export default {
           { text: 'API', link: '/workflows/api.md' },
           { text: 'Caching', link: '/workflows/caching.md' },
           { text: 'Payment', link: '/workflows/payment.md' },
-
-        ]
-      },
-      {
-        text: 'Code',
-        items: [
-          { text: 'Add API', link: '/code/add-api.md' },
-          { text: 'New Service', link: '/code/new-service.md' },
-          { text: 'New Repository', link: '/code/new-repository.md' },
 
         ]
       }

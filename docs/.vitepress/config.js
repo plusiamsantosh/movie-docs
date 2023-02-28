@@ -3,6 +3,7 @@ export default {
   description: 'technical documentation for movie service',
   base: '/movie-docs/',
   outDir: '../public',
+  lastUpdated: true,
   themeConfig: {
     sidebar: [
       {
